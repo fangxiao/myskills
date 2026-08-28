@@ -2,21 +2,41 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Claude%20Code%20%7C%20Antigravity%20%7C%20Cursor-blue.svg)](#)
-[![Deploy: 1--Click](https://img.shields.io/badge/Install-1--Click%20Curl-success.svg)](#-一键极速安装)
+[![Deploy: 1--Click](https://img.shields.io/badge/Install-1--Click%20Curl-success.svg)](#-安装方式)
 
 精选实战级 **Claude Code & AI Agent 专有技能合集**，覆盖 **3 分钟独立建站发布一体化、微信公众号 100% 格式保真排版与自媒体去 AI 味多平台分发**。
 
 ---
 
-## ⚡ 一键极速安装 (1-Click Install)
+## ⚡ 安装方式 (Installation)
 
-在任意 macOS / Linux 终端中运行下方一行命令，3 秒内完成全自动安装：
+### 选项 A：按需安装单个 Skill（推荐 ⭐）
 
+你可以仅选择安装自己需要的单个技能：
+
+#### 1. 仅安装【极速建站与发布】技能 (`quick-site-builder`)：
+```bash
+curl -fsSL https://raw.githubusercontent.com/fangxiao/myskills/main/install.sh | bash -s quick-site-builder
+```
+
+#### 2. 仅安装【微信公众号 100% 保真排版】技能 (`wechat-official-account`)：
+```bash
+curl -fsSL https://raw.githubusercontent.com/fangxiao/myskills/main/install.sh | bash -s wechat-official-account
+```
+
+#### 3. 仅安装【宝玉自媒体去 AI 味与分发】技能 (`baoyu-skills`)：
+```bash
+curl -fsSL https://raw.githubusercontent.com/fangxiao/myskills/main/install.sh | bash -s baoyu-skills
+```
+
+---
+
+### 选项 B：一键全量安装所有 Skills
+
+如果你想一次性拥有所有技能：
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fangxiao/myskills/main/install.sh | bash
 ```
-
-> **Windows 用户**：直接将本仓库中 `skills/` 下的各个文件夹复制到全局 `~/.claude/skills/` 即可。
 
 ---
 
@@ -72,13 +92,8 @@ curl -fsSL https://raw.githubusercontent.com/fangxiao/myskills/main/install.sh |
 
 ## 🛠️ 本地开发与管理
 
-### 手动安装 / 升级技能
-将本仓库 `skills/` 下的对应目录复制到：
-* macOS Claude Code 路径：`~/.claude/skills/`
-* 项目级私有技能路径：`./.agents/skills/`
-
-### 卸载技能
-如需移除某个 Skill，直接删除对应文件夹即可：
+### 卸载某个技能
+如需移除某个 Skill，直接在终端删除对应文件夹：
 ```bash
 rm -rf ~/.claude/skills/quick-site-builder
 ```
