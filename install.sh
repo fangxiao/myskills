@@ -31,19 +31,19 @@ case "$SKILL_CHOICE" in
   "wechat-official-account"|"wechat"|"wx")
     install_single_skill "wechat-official-account" "微信公众号 100% 保真排版"
     ;;
-  "baoyu-skills"|"baoyu")
-    install_single_skill "baoyu-skills" "宝玉自媒体去 AI 味与矩阵分发"
+  "tech-content-creator"|"creator"|"content")
+    install_single_skill "tech-content-creator" "技术内容创作与自媒体矩阵分发"
     ;;
   "all"|*)
     echo "📦 正在全量安装所有技能..."
     install_single_skill "quick-site-builder" "极速独立建站与全流程发布"
     install_single_skill "wechat-official-account" "微信公众号 100% 保真排版"
-    install_single_skill "baoyu-skills" "宝玉自媒体去 AI 味与矩阵分发"
+    install_single_skill "tech-content-creator" "技术内容创作与自媒体矩阵分发"
     ;;
 esac
 
-# 清理旧的独立发布技能（已合并入 quick-site-builder）
-rm -rf "$TARGET_DIR/independent-knowledge-base-publisher"
+# 清理旧技能
+rm -rf "$TARGET_DIR/independent-knowledge-base-publisher" "$TARGET_DIR/baoyu-skills"
 
 echo "================================================================="
 echo " 🎉 安装完成！已生效至: $TARGET_DIR"
