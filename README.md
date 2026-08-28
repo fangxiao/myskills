@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Claude%20Code%20%7C%20Antigravity%20%7C%20Cursor-blue.svg)](#)
 [![Deploy: 1--Click](https://img.shields.io/badge/Install-1--Click%20Curl-success.svg)](#-安装方式)
 
-精选实战级 **Claude Code & AI Agent 专有技能合集**，覆盖 **3 分钟独立建站发布一体化、微信公众号 100% 格式保真排版与自媒体去 AI 味多平台分发**。
+精选实战级 **Claude Code & AI Agent 专有技能合集**，覆盖 **3 分钟独立建站、Cloudflare 全球边缘部署、全网 SEO 自动收录矩阵、微信公众号 100% 格式保真排版与自媒体去 AI 味分发**。
 
 ---
 
